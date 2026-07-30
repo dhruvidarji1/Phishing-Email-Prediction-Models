@@ -2,7 +2,11 @@ import streamlit as st
 
 st.title("Phishing Email Detection")
 
-email = st.text_area("Enter an email")
+sender = st.text_input("Sender Email")
+receiver = st.text_input("Receiver Email")
+subject = st.text_input("Subject")
+body = st.text_area("Email Body")
+
 
 if st.button("Predict"):
     st.write("Prediction coming soon...")
