@@ -142,6 +142,21 @@ col4.metric("F1 Score", selected_metrics["F1 Score"])
 
 st.caption("Replace TBD values after corrected models are evaluated")
 
+# Best performing model summary
+st.markdown("### Best Performing Model")
+
+best_model = "TBD"
+
+st.info(
+    f"Based on the final evaluation metrics, **{best_model}** will be shown "
+    "here as the best-performing model."
+)
+
+st.write(
+    "The best model will be selected by comparing accuracy, precision, "
+    "recall, and F1 score across all evaluated models."
+)
+
 st.divider()
 
 # Email form
