@@ -19,3 +19,11 @@
 # Streamlit Application
 - The repository includes a Streamlit application where users can enter email information, view extracted features, and receive a phishing or legitimate prediction.
   
+# Technologies Used
+- Python
+- Streamlit
+- Scikit-learn
+- Hugging Face Transformers
+- PyTorch
+- Pandas
+- Joblib
